@@ -2,7 +2,7 @@
 ----------------------
 The script `model.py` gathers data on booking.com journeys and trains a multi-classification model with the target of being able to predict the user's next journey.
 
-The data and challenge was created by booking.com. More information can be found on their github repository: ![Multi-Destination Trip recommendationat booking.com](https://github.com/bookingcom/ml-dataset-mdt)
+The data and challenge was created by booking.com. More information can be found on their github repository: ![Multi-Destination Trip recommendation at booking.com](https://github.com/bookingcom/ml-dataset-mdt)
 
 The intended
 
