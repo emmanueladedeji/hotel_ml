@@ -29,7 +29,7 @@ The evaluation dataset is constructed similarly (378,667 reservations), however 
 ### Feature Engineering
 The purpose of deriving new features based on the core dataset is to try to provide the model with more predictive power.
 
-The data was aggregated to a user level and several key features were created through the aggregation using the following code (can be seen in ![model.py](https://github.com/emmanueladedeji/hotel_ml/model.py)):
+The data was aggregated to a user level and several key features were created through the aggregation using the following code (can be seen in ![model.py](https://github.com/emmanueladedeji/hotel_ml/blob/main/model.py)):
 
 ```py
 test_agg_df = (test_df_no_target
