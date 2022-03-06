@@ -2,7 +2,7 @@
 ----------------------
 The script `model.py` gathers data on booking.com journeys and trains a multi-classification model with the target of being able to predict the user's next journey.
 
-The data and challenge was created by booking.com. More information can be found on their github repository: ![Multi-Destination Trip recommendation at booking.com](https://github.com/bookingcom/ml-dataset-mdt)
+The data and challenge was created by booking.com. More information can be found on their github repository: [Multi-Destination Trip recommendation at booking.com](https://github.com/bookingcom/ml-dataset-mdt)
 
 The intended
 
@@ -29,7 +29,7 @@ The evaluation dataset is constructed similarly (378,667 reservations), however 
 ### Feature Engineering
 The purpose of deriving new features based on the core dataset is to try to provide the model with more predictive power.
 
-The data was aggregated to a user level and several key features were created through the aggregation using the following code (can be seen in ![model.py](https://github.com/emmanueladedeji/hotel_ml/blob/main/model.py)):
+The data was aggregated to a user level and several key features were created through the aggregation using the following code (can be seen in [model.py](https://github.com/emmanueladedeji/hotel_ml/blob/main/model.py)):
 
 ```py
 test_agg_df = (test_df_no_target
